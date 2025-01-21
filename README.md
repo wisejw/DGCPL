@@ -56,10 +56,10 @@ The project is organized as follows:
 │      load_DGCN_data.py
 │      load_HGNN_data.py
 └─utils
-        eval_performance.py
-        loss_function.py
-        set_logger.py
-        set_seed.py
+│       eval_performance.py
+│       loss_function.py
+│       set_logger.py
+│       set_seed.py
 │  layers.py
 │  HyperGNN.py    # Implementation of Hypergraph Neural Network (HGNN) model.
 │  DirectedGCN.py    # Implementation of Directed Graph Convolution Network (DGCN) model.
