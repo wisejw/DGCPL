@@ -38,34 +38,43 @@ def train(args):
     print('Dataset: ' + args.dataset + '\n')
 
     print("Read test data complete!")
+    # Load the test data for the selected dataset
     # test_data_df = pd.read_csv(f'./data/{args.dataset}/test.csv', header=0)  # University_Course
     # test_data_df = pd.read_csv(f'./data/{args.dataset}/test.csv', header=0)  # LectureBank
     test_data_df = pd.read_csv(f'./data/{args.dataset}/test.csv', header=0)  # MOOC
     test_data = [tuple(x) for x in test_data_df.to_numpy()]
 
+    # Load the concept data to get the number of concepts
     concept_df = pd.read_csv(f'./data/{args.dataset}/concepts_index.csv', header=None)
     num_concepts = len(concept_df)
 
+    # Load the concept-resource hypergraph data
     adj = generate_G_from_H(pd.read_csv(f'./data/{args.dataset}/Hypergraph_H.csv', header=None))
     G = adj.to(device)
 
+    # Load the learning behavior graph adjacency matrices for in-degree and out-degree connections
     adj_out, adj_in = generate_adj_matrices(f'./data/{args.dataset}/clickStreamLink_data_id.csv', num_concepts)
     adj_in = adj_in.to(device)
     adj_out = adj_out.to(device)
 
+    # Load pre-trained BERT embeddings
     bert_embeddings_df = pd.read_csv(f'./data/{args.dataset}/bert_embeddings.csv')
     embeddings = np.stack(bert_embeddings_df['bert_embedding'].apply(lambda x: np.fromstring(x, sep=',')).values)
     feature_matrix = torch.tensor(embeddings, dtype=torch.float32).to(device)
 
+    # Initialize the model with the appropriate hyperparameters
     model = CPL(args.in_channels, args.out_channels1, args.out_channels2, G, adj_out, adj_in, feature_matrix, dropout_rate=args.dropout_rate).cuda()
 
+    # Load the pre-trained model weights from the saved checkpoint
     model_name = f"./best_model/{args.dataset}/{args.dataset}-DGCPL_best_net.pth"
     checkpoint = torch.load(model_name)
     model.load_state_dict(checkpoint['model'])
     model.eval()
 
+    # Perform testing on the model
     print("Testing!!!!")
     test_metrics = evaluate_test(model, test_data, args.batch_size, device, save_path=f"./data/{args.dataset}/predictions_with_concepts.csv")
+    # Print the evaluation metrics (Accuracy, F1 score, Precision, Recall, AUC, AP)
     print(f"Test metrics: ACC = {test_metrics['ACC']:.4f}, F1 = {test_metrics['F1']:.4f}, "
                 f"Precision = {test_metrics['Precision']:.4f}, Recall = {test_metrics['Recall']:.4f}, "
                 f"AUC = {test_metrics['AUC']:.4f}, AP = {test_metrics['AP']:.4f}")
@@ -75,6 +84,6 @@ if __name__ == '__main__':
     start_time = time.time()
     train(args)
     end_time = time.time()
-    total_time = end_time - start_time
+    total_time = end_time - start_time    # Calculate the total test time
     print(f'Test time: {total_time:.2f} seconds\n')
 
