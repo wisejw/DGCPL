@@ -1,0 +1,654 @@
+0,cmu_15-221
+1,mit_6.641
+2,psu_CSE 551
+3,msu_CSE 440
+4,mit_6.UR
+5,iowa_CS:3110
+6,psu_CMPSC 311
+7,mit_6.002
+8,psu_CMPSC 421
+9,mit_6.853
+10,princeton_COS  217
+11,mit_6.302
+12,illinois_CS 241
+13,mit_6.169
+14,cmu_15-323
+15,maryland_CMSC 460
+16,psu_CSE 522
+17,mit_6.012
+18,mit_6.013
+19,stanford_CS 181
+20,mit_6.814
+21,cmu_15-359
+22,purdue_CS 50300
+23,caltech_CS 38
+24,stanford_CS 148
+25,iowa_CS:2110
+26,mit_6.863
+27,cmu_15-104
+28,cmu_15-387
+29,stanford_CS 193A
+30,illinois_CS 411
+31,illinois_CS 125
+32,maryland_CMSC 436
+33,stanford_CS 276
+34,stanford_CS 267
+35,mit_6.452
+36,stanford_CS 224U
+37,stanford_CS 103A
+38,mit_6.866
+39,mit_6.021
+40,cmu_15-211
+41,msu_CSE 843
+42,msu_CSE 410
+43,iowa_CS:5350
+44,maryland_CMSC 106
+45,psu_CMPSC 458
+46,mit_6.852
+47,maryland_CMSC 422
+48,cmu_15-237
+49,illinois_CS 461
+50,mit_6.719
+51,caltech_CS 11
+52,iowa_CS:4350
+53,cmu_15-122
+54,mit_6.803
+55,mit_6.685
+56,princeton_COS  402
+57,msu_CSE 429
+58,stanford_CS 476B
+59,illinois_CS 484
+60,msu_CSE 914
+61,msu_CSE 420
+62,"princeton_COS  109,EGR  109"
+63,illinois_CS 463
+64,stanford_CS 147
+65,caltech_CS 101
+66,illinois_CS 492
+67,mit_6.905
+68,purdue_CS 62600
+69,cmu_15-354
+70,caltech_CS 1
+71,iowa_CS:3330
+72,mit_6.922
+73,caltech_CS 119
+74,illinois_CS 467
+75,psu_CMPSC 431W
+76,cmu_15-464
+77,maryland_CMSC 714
+78,stanford_CS 229T
+79,psu_CSE 531
+80,illinois_CS 460
+81,cmu_15-412
+82,mit_6.01
+83,psu_CMPSC 483W
+84,maryland_CMSC 250
+85,psu_CSE 564
+86,psu_CMPSC 438
+87,mit_6.602
+88,caltech_CMS/CS/EE 144
+89,mit_6.431
+90,illinois_CS 477
+91,mit_6.870
+92,iowa_CS:2820
+93,illinois_CS 493
+94,psu_CMPSC 451
+95,mit_6.522
+96,mit_6.152
+97,mit_6.115
+98,cmu_15-451
+99,psu_CSE 557
+100,illinois_CS 465
+101,stanford_CS 194
+102,cmu_15-319
+103,mit_6.871
+104,caltech_CS 24
+105,cmu_15-437
+106,princeton_COS  451
+107,iowa_CS:2420
+108,caltech_CS/CNS/EE 156
+109,msu_CSE 435
+110,illinois_CS 548
+111,mit_6.865
+112,mit_6.630
+113,purdue_CS 53500
+114,stanford_CS 107E
+115,cmu_15-449
+116,mit_6.450
+117,msu_CSE 484
+118,mit_6.556
+119,stanford_CS 265
+120,psu_CSE 542
+121,mit_6.003
+122,illinois_CS 574
+123,stanford_CS 157
+124,illinois_CS 447
+125,"princeton_COS  432,ELE  432"
+126,illinois_CS 476
+127,illinois_CS 420
+128,stanford_CS 221
+129,stanford_CS 106A
+130,mit_6.111
+131,mit_6.437
+132,mit_6.776
+133,msu_CSE 260
+134,msu_CSE 480
+135,mit_6.161
+136,mit_6.071
+137,illinois_CS 233
+138,mit_6.268
+139,illinois_CS 419
+140,cmu_15-441
+141,mit_6.875
+142,psu_CMPSC 221
+143,cmu_15-411
+144,mit_6.828
+145,psu_CMPSC 456
+146,maryland_CMSC 414
+147,psu_CMPSC 302
+148,caltech_CS 118
+149,cmu_15-390
+150,cmu_15-214
+151,stanford_CS 549
+152,cmu_15-386
+153,stanford_CS 106B
+154,illinois_CS 494
+155,illinois_CS 173
+156,mit_6.344
+157,psu_CMPSC 460
+158,mit_6.632
+159,msu_CSE 331
+160,psu_CMPSC 461
+161,illinois_CS 428
+162,iowa_CS:5610
+163,caltech_SS/CS 149
+164,psu_CMPSC 436
+165,illinois_CS 438
+166,illinois_CS 527
+167,stanford_CS 193P
+168,purdue_CS 53600
+169,mit_6.846
+170,mit_6.045
+171,mit_6.781
+172,psu_CMPSC 202
+173,iowa_CS:4520
+174,princeton_COS  518
+175,msu_CSE 847
+176,caltech_SS/CS 241
+177,msu_CSE 335
+178,iowa_CS:4330
+179,iowa_CS:3620
+180,cmu_15-465
+181,psu_CMPSC 442
+182,mit_6.581
+183,iowa_CS:4440
+184,mit_6.172
+185,mit_6.334
+186,illinois_CS 565
+187,cmu_15-322
+188,purdue_CS 63800
+189,purdue_CS 63600
+190,stanford_CS 232
+191,psu_CSE 539
+192,mit_6.254
+193,iowa_CS:5800
+194,stanford_CS 367
+195,mit_6.004
+196,stanford_CS 211
+197,cmu_15-610
+198,purdue_CS 51400
+199,caltech_CS/CNS 174
+200,cmu_15-405
+201,mit_6.673
+202,mit_6.345
+203,stanford_CS 143
+204,maryland_CMSC 456
+205,cmu_15-321
+206,cmu_15-385
+207,stanford_CS 227B
+208,iowa_CS:4500
+209,stanford_CS 166
+210,maryland_CMSC 330
+211,psu_CSE 544
+212,princeton_COS  513
+213,mit_6.728
+214,psu_CMPSC 473
+215,illinois_CS 426
+216,stanford_CS 255
+217,mit_6.131
+218,caltech_BE/CS/CNS/Bi 191
+219,mit_6.175
+220,cmu_15-251
+221,purdue_CS 63500
+222,stanford_CS 231B
+223,iowa_CS:4740
+224,maryland_CMSC 424
+225,caltech_CS 138
+226,caltech_CS 3
+227,maryland_CMSC 351
+228,psu_CMPSC 448
+229,cmu_15-312
+230,caltech_CS 2
+231,illinois_CS 210
+232,mit_6.456
+233,msu_CSE 422
+234,stanford_CS 316
+235,psu_CMPSC 485W
+236,mit_6.0002
+237,cmu_15-295
+238,caltech_CS 151
+239,psu_CMPSC 463
+240,mit_6.551
+241,caltech_CS/EE 145
+242,psu_CMPSC 444
+243,illinois_CS 422
+244,mit_6.732
+245,psu_CMPSC 457
+246,caltech_CS 150
+247,mit_6.033
+248,stanford_CS 261
+249,caltech_CS 176
+250,mit_6.830
+251,cmu_15-418
+252,mit_6.833
+253,maryland_CMSC 131
+254,psu_CSE 565
+255,mit_6.376
+256,msu_CSE 131
+257,mit_6.301
+258,stanford_CS 167
+259,psu_CSE 545
+260,iowa_CS:5520
+261,caltech_CS 4
+262,stanford_CS 110
+263,iowa_CS:4980
+264,illinois_CS 544
+265,psu_CMPSC 470
+266,illinois_CS 511
+267,illinois_CS 533
+268,mit_6.872
+269,illinois_CS 512
+270,mit_6.858
+271,iowa_CS:4340
+272,maryland_CMSC 417
+273,illinois_CS 242
+274,caltech_CMS/CS/CNS/EE 155
+275,maryland_CMSC 423
+276,msu_CSE 498
+277,princeton_COS  429
+278,cmu_15-355
+279,mit_6.820
+280,mit_6.806
+281,iowa_CS:2210
+282,mit_6.731
+283,stanford_CS 149
+284,mit_6.552
+285,maryland_CMSC 426
+286,stanford_CS 327A
+287,cmu_15-466
+288,stanford_CS 229
+289,mit_6.869
+290,psu_CMPSC 471
+291,msu_CSE 473
+292,cmu_15-440
+293,cmu_15-455
+294,mit_6.036
+295,stanford_CS 144
+296,purdue_CS 61500
+297,illinois_CS 450
+298,illinois_CS 526
+299,psu_CSE 511
+300,illinois_CS 446
+301,stanford_CS 145
+302,mit_6.251
+303,stanford_CS 251P
+304,psu_CMPSC 122
+305,iowa_CS:5810
+306,maryland_CMSC 132
+307,mit_6.951
+308,psu_CMPSC 312
+309,cmu_15-463
+310,caltech_CS 142
+311,mit_6.854
+312,cmu_15-349
+313,cmu_15-381
+314,iowa_CS:2111
+315,purdue_CS 55500
+316,mit_6.829
+317,msu_CSE 471
+318,msu_CSE 460
+319,iowa_CS:5620
+320,mit_6.441
+321,stanford_CS 249A
+322,stanford_CS 106X
+323,stanford_CS 154
+324,psu_CMPSC 201
+325,stanford_CS 190
+326,illinois_CS 225
+327,illinois_CS 573
+328,maryland_CMSC 733
+329,psu_CMPSC 430
+330,stanford_CS 196
+331,cmu_15-369
+332,illinois_CS 466
+333,mit_6.637
+334,psu_CMPSC 475
+335,stanford_CS 205A
+336,mit_6.241
+337,psu_CSE 552
+338,illinois_CS 429
+339,msu_CSE 251
+340,illinois_CS 579
+341,msu_CSE 425
+342,psu_CSE 532
+343,mit_6.824
+344,msu_CSE 450
+345,mit_6.S04
+346,msu_CSE 472
+347,mit_6.005
+348,stanford_CS 243
+349,princeton_COS  340
+350,psu_CSE 536
+351,illinois_CS 528
+352,iowa_CS:1110
+353,mit_6.375
+354,stanford_CS 448J
+355,illinois_CS 427
+356,stanford_CS 155
+357,stanford_CS 194H
+358,mit_6.034
+359,maryland_CMSC 451
+360,mit_6.857
+361,illinois_CS 433
+362,psu_CSE 530
+363,stanford_CS 476A
+364,maryland_CMSC 430
+365,cmu_15-491
+366,iowa_CS:3910
+367,msu_CSE 477
+368,mit_6.815
+369,msu_CSE 101
+370,msu_CSE 201
+371,caltech_CS 153
+372,stanford_CS 92SI
+373,psu_CMPSC 474
+374,princeton_COS  326
+375,mit_6.621
+376,mit_6.835
+377,mit_6.101
+378,caltech_BE/CS 196
+379,stanford_CS 142
+380,mit_6.231
+381,msu_CSE 841
+382,mit_6.921
+383,mit_6.336
+384,cmu_15-346
+385,mit_6.245
+386,princeton_COS  318
+387,iowa_CS:3640
+388,mit_6.642
+389,psu_CMPSC 465
+390,mit_6.02
+391,illinois_CS 373
+392,mit_6.631
+393,psu_CMPSC 472
+394,stanford_CS 240H
+395,caltech_CS 122
+396,illinois_CS 440
+397,mit_6.850
+398,mit_6.864
+399,maryland_CMSC 435
+400,mit_6.836
+401,mit_6.952
+402,princeton_COS  597B
+403,mit_6.061
+404,stanford_CS 231M
+405,iowa_CS:3210
+406,illinois_CS 554
+407,mit_6.720
+408,stanford_CS 348B
+409,mit_6.0001
+410,"princeton_ELE  475,COS  475"
+411,purdue_CS 52600
+412,purdue_CS 54200
+413,mit_6.838
+414,illinois_CS 475
+415,"princeton_COS  375,ELE  375"
+416,mit_6.701
+417,mit_6.170
+418,cmu_15-317
+419,mit_6.730
+420,illinois_CS 519
+421,stanford_CS 242
+422,mit_6.832
+423,psu_CSE 550
+424,cmu_15-421
+425,maryland_CMSC 725
+426,cmu_15-313
+427,purdue_CS 61400
+428,caltech_EE/CS 53
+429,psu_CMPSC 484
+430,illinois_CS 523
+431,mit_6.839
+432,mit_6.438
+433,psu_CMPSC 497B
+434,"princeton_COS  126,EGR  126"
+435,psu_CSE 597A
+436,cmu_15-351
+437,mit_6.142
+438,stanford_CS 161
+439,stanford_CS 231A
+440,stanford_CS 239
+441,illinois_CS 431
+442,maryland_CMSC 631
+443,mit_6.932
+444,stanford_CS 108
+445,caltech_Ma/CS 6
+446,maryland_CMSC 216
+447,mit_6.690
+448,iowa_CS:4400
+449,stanford_CS 374
+450,msu_CSE 232
+451,stanford_CS 248
+452,psu_CMPSC 443
+453,cmu_15-492
+454,mit_6.845
+455,caltech_CS 21
+456,mit_6.267
+457,cmu_15-415
+458,psu_CMPSC 462
+459,mit_6.THM
+460,cmu_15-213
+461,mit_6.007
+462,caltech_CS 123
+463,iowa_CS:4700
+464,psu_CSE 562
+465,mit_6.876
+466,psu_CMPSC 464
+467,caltech_CS/EE/Ma 129
+468,maryland_CMSC 466
+469,illinois_CS 410
+470,purdue_CS 66100
+471,mit_6.816
+472,maryland_CMSC 250H
+473,caltech_CS/SS 152
+474,psu_CSE 537
+475,stanford_CS 231N
+476,mit_6.775
+477,msu_CSE 320
+478,maryland_CMSC 666
+479,mit_6.819
+480,cmu_15-150
+481,cmu_15-453
+482,illinois_CS 414
+483,mit_6.503
+484,stanford_CS 140
+485,psu_CMPSC 459
+486,stanford_CS 1C
+487,mit_6.341
+488,mit_6.047
+489,stanford_CS 228
+490,stanford_CS 275
+491,stanford_CS 345D
+492,illinois_CS 583
+493,iowa_CS:2520
+494,psu_CMPSC 455
+495,illinois_CS 101
+496,maryland_CMSC 411
+497,mit_6.374
+498,cmu_15-494
+499,psu_CSE 520
+500,illinois_CS 421
+501,cmu_15-414
+502,mit_6.011
+503,stanford_CS 210A
+504,stanford_CS 448Z
+505,msu_CSE 814
+506,caltech_CS/CNS 171
+507,mit_6.813
+508,cmu_15-383
+509,psu_CMPSC 426
+510,iowa_CS:5850
+511,cmu_15-462
+512,mit_6.831
+513,mit_6.262
+514,cmu_15-294
+515,mit_6.434
+516,stanford_CS 107
+517,caltech_EE/CS 52
+518,iowa_CS:2630
+519,stanford_CS 251
+520,caltech_CS 121
+521,stanford_CS 371
+522,mit_6.874
+523,mit_6.263
+524,mit_6.945
+525,stanford_CS 246
+526,illinois_CS 445
+527,psu_CSE 555
+528,mit_6.777
+529,mit_6.435
+530,stanford_CS 240
+531,stanford_CS 223A
+532,illinois_CS 412
+533,purdue_CS 65500
+534,stanford_CS 109
+535,mit_6.837
+536,maryland_CMSC 434
+537,maryland_CMSC 433
+538,mit_6.436
+539,stanford_CS 168
+540,psu_CSE 588
+541,stanford_CS 262
+542,illinois_CS 546
+543,caltech_CS 116
+544,psu_CMPSC 360
+545,msu_CSE 836
+546,psu_CMPSC 467
+547,cmu_15-424
+548,purdue_CS 64100
+549,psu_CMPSC 402
+550,mit_6.046
+551,iowa_CS:1210
+552,stanford_CS 245
+553,mit_6.006
+554,cmu_15-392
+555,mit_6.634
+556,stanford_CS 244B
+557,illinois_CS 538
+558,illinois_CS 418
+559,stanford_CS 90SI
+560,mit_6.256
+561,cmu_15-300
+562,iowa_CS:2230
+563,illinois_CS 555
+564,caltech_CS 124
+565,maryland_CMSC 723
+566,cmu_15-112
+567,mit_6.442
+568,purdue_CS 60300
+569,psu_CMPSC 313
+570,caltech_CS 115
+571,stanford_CS 225A
+572,cmu_15-365
+573,illinois_CS 425
+574,mit_6.243
+575,mit_6.041
+576,psu_CMPSC 441
+577,stanford_CS 279
+578,illinois_CS 357
+579,mit_6.867
+580,illinois_CS 525
+581,illinois_CS 424
+582,mit_6.453
+583,purdue_CS 50200
+584,mit_6.717
+585,mit_6.035
+586,psu_CSE 560
+587,psu_CMPSC 450
+588,cmu_15-121
+589,mit_6.801
+590,iowa_CS:4420
+591,mit_6.UAP
+592,stanford_CS 210B
+593,mit_6.878
+594,stanford_CS 348A
+595,illinois_CS 423
+596,psu_CMPSC 488
+597,cmu_15-210
+598,stanford_CS 103
+599,illinois_CS 522
+600,purdue_CS 54100
+601,mit_6.842
+602,stanford_CS 244
+603,maryland_CMSC 412
+604,msu_CSE 231
+605,maryland_CMSC 421
+606,caltech_CS/EE 143
+607,cmu_15-410
+608,maryland_CMSC 427
+609,stanford_CS 9
+610,mit_6.440
+611,psu_CMPSC 102
+612,stanford_CS 294S
+613,mit_6.774
+614,stanford_CS 247
+615,iowa_CS:3820
+616,iowa_CS:3980
+617,mit_6.UAR
+618,stanford_CS 241
+619,mit_6.042
+620,mit_6.856
+621,cmu_15-456
+622,iowa_CS:4640
+623,caltech_CS/EE 146
+624,caltech_CMS/CS 139
+625,psu_CSE 541
+626,psu_CMPSC 121
+627,mit_6.851
+628,stanford_CS 124
+629,mit_6.521
+630,illinois_CS 524
+631,illinois_CS 473
+632,mit_6.849
+633,illinois_CS 457
+634,psu_CSE 563
+635,stanford_CS 131
+636,mit_6.141
+637,mit_6.242
+638,mit_6.823
+639,mit_6.008
+640,princeton_COS  226
+641,illinois_CS 563
+642,cmu_15-417
+643,stanford_CS 224N
+644,maryland_CMSC 420
+645,psu_CMPSC 397A
+646,cmu_15-457
+647,iowa_CS:2620
+648,psu_CMPSC 487W
+649,psu_CSE 543
+650,purdue_CS 58000
+651,psu_CMPSC 469
+652,msu_CSE 476
+653,mit_6.UAT

@@ -1,0 +1,16 @@
+keras==3.3.3
+nltk==3.8.1
+numpy==1.24.2
+openpyxl==3.1.2
+pandas==1.5.3
+scikit-learn==1.2.0
+scipy==1.13.0
+tensorflow==2.16.1
+tokenizers==0.13.2
+torch @ http://download.pytorch.org/whl/cu121/torch-2.1.2%2Bcu121-cp310-cp310-linux_x86_64.whl
+torch-cluster==1.6.3+pt21cu121
+torch-scatter==2.1.2+pt21cu121
+torch-sparse==0.6.18+pt21cu121
+torch-spline-conv==1.2.2+pt21cu121
+torch_geometric==2.5.3
+transformers==4.26.1
