@@ -136,5 +136,4 @@ Both training and testing scripts accept several command-line arguments to contr
 ## Logging
 
 Both training and testing outputs are logged to timestamped files in the logs/ directory. Each log file is named based on the operation (train/test), dataset, and the time of execution.
-# DGCPL
-# DGCPL
+
