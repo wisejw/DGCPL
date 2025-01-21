@@ -17,13 +17,13 @@ def evaluate(model, data, batch_size, device):
             c2 = torch.tensor(c2).to(device)
             target = torch.tensor(target).to(device).float()
 
-            logit_H, logit_N, logit_T = model(c1, c2)
+            logit_H, logit_N, logit_T = model(c1, c2)    # Get model logits
 
             y_H = torch.sigmoid(logit_H)
             y_N = torch.sigmoid(logit_N)
             y_T = torch.sigmoid(logit_T)
 
-            p_mean = (y_H + y_N + y_T) / 3.0
+            p_mean = (y_H + y_N + y_T) / 3.0    # Average the outputs
             predictions = p_mean.cpu().numpy()
             targets = target.cpu().numpy()
 
@@ -33,7 +33,7 @@ def evaluate(model, data, batch_size, device):
     total_preds = np.array(total_preds).flatten()
     total_targets = np.array(total_targets).flatten()
 
-    pred_label = (total_preds > 0.5).astype(int)
+    pred_label = (total_preds > 0.5).astype(int)    # Binarize predictions
     target_label = total_targets.astype(int)
 
     metrics = {
@@ -61,12 +61,12 @@ def evaluate_test(model, data, batch_size, device, save_path):
             c2 = torch.tensor(c2).to(device)
             target = torch.tensor(target).to(device).float()
 
-            logit_H, logit_N, logit_T = model(c1, c2)
+            logit_H, logit_N, logit_T = model(c1, c2)    # Get model logits
             y_H = torch.sigmoid(logit_H)
             y_N = torch.sigmoid(logit_N)
             y_T = torch.sigmoid(logit_T)
 
-            p_mean = (y_H + y_N + y_T) / 3.0
+            p_mean = (y_H + y_N + y_T) / 3.0    # Average the outputs
             predictions = p_mean.cpu().numpy()
             targets = target.cpu().numpy()
 
@@ -78,7 +78,7 @@ def evaluate_test(model, data, batch_size, device, save_path):
     total_preds = np.array(total_preds).flatten()
     total_targets = np.array(total_targets).flatten()
 
-    pred_label = (total_preds > 0.5).astype(int)
+    pred_label = (total_preds > 0.5).astype(int)    # Binarize predictions
     target_label = total_targets.astype(int)
 
     if save_path:
