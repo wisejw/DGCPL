@@ -5,6 +5,7 @@ import random
 
 
 def set_seed(seed):
+    # Set the random seed
     random.seed(seed)
     np.random.seed(seed)
     os.environ['CUDA_VISIBLE_DEVICES'] = '0,2'
