@@ -1,10 +1,10 @@
 <div align="center">
 
-# [IJCAI 2025] DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning
+# [IJCAI 2025] DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning <a href="https://github.com/wisejw/DGCPL"><img src="https://img.shields.io/github/stars/wisejw/DGCPL" height="25"></a>
 
-\[[appendix](https://github.com/wisejw/DGCPL/blob/main/IJCAI2025_DGCPL_Appendix.pdf)\]<a href="https://github.com/kaikai23/MaskGaussian"><img src="https://img.shields.io/github/stars/kaikai23/MaskGaussian" height="23"></a>
+### <div align="center"> [paper] \[[appendix](https://github.com/wisejw/DGCPL/blob/main/IJCAI2025_DGCPL_Appendix.pdf)\] [presentation] [poster] </div>
 
-**DGCPL** is a novel dual graph distillation approach for concept prerequisite relation learning.
+**DGCPL** is a novel dual graph distillation approach for concept prerequisite relation learning. [doi].
 
 > Miao Zhang, **Jiawei Wang**, Jinying Han, Kui Xiao, Zhifei Li, Yan Zhang, Hao Chen, Shihui Wang. DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning. IJCAI 2025 Main Track on Natural Language Processing.
 
