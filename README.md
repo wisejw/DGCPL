@@ -1,6 +1,20 @@
 <div align="center">
 
-# DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning
+# [IJCAI 2025] DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning
+
+\[[appendix](https://github.com/wisejw/DGCPL/blob/main/IJCAI2025_DGCPL_Appendix.pdf)\]<a href="https://github.com/kaikai23/MaskGaussian"><img src="https://img.shields.io/github/stars/kaikai23/MaskGaussian" height="23"></a>
+
+**DGCPL** is a novel dual graph distillation approach for concept prerequisite relation learning.
+
+> Miao Zhang, **Jiawei Wang**, Jinying Han, Kui Xiao, Zhifei Li, Yan Zhang, Hao Chen, Shihui Wang. DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning. IJCAI 2025 Main Track on Natural Language Processing.
+
+<p>
+<img src="https://img.shields.io/badge/python-v3.10.8-blue">
+<img src="https://img.shields.io/badge/pytorch-v2.1.2-blue">
+<img src="https://img.shields.io/badge/transformers-v4.26.1-blue">
+<img src="https://img.shields.io/badge/scikit--learn-v1.2.0-blue">
+<img src="https://img.shields.io/badge/nltk-v3.8.1-blue">
+</p>
 
 <img src="./DGCPL.png" style="zoom: 67%;" />
 
@@ -136,4 +150,13 @@ Both training and testing scripts accept several command-line arguments to contr
 ## Logging
 
 Both training and testing outputs are logged to timestamped files in the logs/ directory. Each log file is named based on the operation (train/test), dataset, and the time of execution.
+
+
+## Citation
+
+Please cite the following paper if you find our code helpful.
+
+```bibtex
+
+```
 
