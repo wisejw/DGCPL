@@ -6,7 +6,7 @@
 
 **DGCPL** is a novel dual graph distillation approach for concept prerequisite relation learning. [doi].
 
-> Miao Zhang, **Jiawei Wang**, Jinying Han, Kui Xiao, Zhifei Li, Yan Zhang, Hao Chen, Shihui Wang. DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning. IJCAI 2025 Main Track on Natural Language Processing.
+> **Miao Zhang**, <a href="https://wisejw.github.io/"><strong>Jiawei Wang</strong></a>, **Jinying Han**, **Kui Xiao**<sup>✉</sup>, **Zhifei Li**, **Yan Zhang**, **Hao Chen**, **Shihui Wang**. <br>DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning. IJCAI 2025 Main Track on Natural Language Processing.
 
 <p>
 <img src="https://img.shields.io/badge/python-v3.10.8-blue">
@@ -16,13 +16,14 @@
 <img src="https://img.shields.io/badge/nltk-v3.8.1-blue">
 </p>
 
+
 <img src="./DGCPL.png" style="zoom: 67%;" />
 
 </div>
 
-In this paper, we introduce **DGCPL** (Dual Graph Distillation for Concept Prerequisite Relation Learning), a novel deep learning model that effectively predicts concept prerequisite relations by leveraging both knowledge and learning behavior perspectives. As illustrated in Figure, DGCPL constructs a dual graph structure to capture high-order knowledge and learner behavior features through the Concept-Resource Hypergraph and Learning Behavior Graph, respectively. By using a gated knowledge distillation mechanism, DGCPL fuses these features to obtain comprehensive concept embeddings for accurate prediction of prerequisite relations.
+In this paper, we introduce **DGCPL** (**D**ual **G**raph Distillation for **C**oncept **P**rerequisite Relation **L**earning), a novel deep learning model that effectively predicts concept prerequisite relations by leveraging both knowledge and learning behavior perspectives. As illustrated in Figure, DGCPL constructs a dual graph structure to capture high-order knowledge and learner behavior features through the Concept-Resource Hypergraph and Learning Behavior Graph, respectively. By using a gated knowledge distillation mechanism, DGCPL fuses these features to obtain comprehensive concept embeddings for accurate prediction of prerequisite relations.
 
-## Installation
+## 🛠 Installation
 
 Ensure you have Python 3.7+ and the required dependencies installed. 
 
@@ -41,7 +42,7 @@ Make sure you have the following Python packages installed:
 
 
 
-## Project Structure
+## 📢 Project Structure
 
 The project is organized as follows:
 
@@ -86,9 +87,9 @@ The project is organized as follows:
 ```
 
 
-## Usage
+## 🚀 Usage
 
-### Training
+### 🎯 Training
 
 You can train the model in two ways: by using the train.sh script or directly executing the train.py script.
 
@@ -114,7 +115,7 @@ This script will:
 2. Train the model for a specified number of epochs.
 3. Save the best model based on validation AUC.
 
-### Testing
+### 📖 Testing
 
 You can test the model in two ways: by using the test.sh script or directly executing the test.py script.
 
@@ -129,7 +130,7 @@ This script will:
 
 
 
-## Parameters
+## 🔥 Parameters
 
 Both training and testing scripts accept several command-line arguments to control the behavior of the model:
 
@@ -147,12 +148,12 @@ Both training and testing scripts accept several command-line arguments to contr
 - --dataset: Name of the dataset to use.
 
 
-## Logging
+## ✨ Logging
 
 Both training and testing outputs are logged to timestamped files in the logs/ directory. Each log file is named based on the operation (train/test), dataset, and the time of execution.
 
 
-## Citation
+## 📌 Citation
 
 Please cite the following paper if you find our code helpful.
 
