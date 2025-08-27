@@ -158,6 +158,11 @@ Both training and testing outputs are logged to timestamped files in the logs/ d
 Please cite the following paper if you find our code helpful.
 
 ```bibtex
-
+@inproceedings{zhang2025dgcpl,
+  title={DGCPL: Dual Graph Distillation for Concept Prerequisite Relation Learning},
+  author={Zhang, Miao and Wang, Jiawei and Han, Jinying and Xiao, Kui and Li, Zhifei and Zhang, Yan and Chen, Hao and Wang, Shihui},
+  booktitle={Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2025}
+}
 ```
 
